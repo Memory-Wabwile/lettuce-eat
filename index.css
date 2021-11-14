@@ -2,3 +2,10 @@
     font-family:Roboto;
     src: url("fonts/Roboto-Regular.ttf");
 }
+body{
+    font-family: Roboto;
+}
+.firstcontainer {
+    background-image: url("images/image2.png");
+    background-size: cover;  
+}
