@@ -164,3 +164,16 @@ em{
     padding-top: 40px;
     font-size: 25px;
 }
+.fourdivs{
+    padding: 20px;
+}
+.fourdivs>img{
+    padding: 10px;
+}
+.chapati{
+    background-color: white;
+    display: flex;
+    width:25%;
+    padding:25px;   
+    margin-left:20%;
+}
