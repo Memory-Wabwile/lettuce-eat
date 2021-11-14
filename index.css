@@ -2,12 +2,18 @@
     font-family:Roboto;
     src: url("fonts/Roboto-Regular.ttf");
 }
+
 body{
-    font-family: Roboto;
+    font-family:Roboto;
 }
 .firstcontainer {
     background-image: url("images/image2.png");
     background-size: cover;  
+}
+@media screen and (max-width:600px){
+    .firstcontainer{
+           
+    }
 }
 .topleft{
     display: flex;
@@ -33,6 +39,14 @@ li {
     margin-bottom:10px;
     font-size: 30px;
 }
+@media screen and (max-width:600px){
+    li{
+        font-size:10px;
+        padding :20px;
+        display: flex;
+        
+    }
+}
 #home {
     color: #F19201;
     
@@ -41,6 +55,12 @@ li {
     display: flex;
     justify-content: space-between;
     background-color: rgb(0, 0, 0, .5);
+}
+@media screen and (max-width:600px){
+    .navigation{
+        display: flex;
+        flex-direction: row;
+    }
 }
 .nv{
     background-color: black;
@@ -66,6 +86,11 @@ li {
     color: white;
     padding-left: 50px;
     font-size:50px;
+}
+@media screen and (max-width:600px){
+    .premium{
+        font-size: 20px;
+    }
 }
 
 .premium {
