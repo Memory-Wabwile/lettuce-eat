@@ -224,3 +224,12 @@ em{
     background-color: transparent;
     padding: 10px 50px 10px 50px;
 }
+.sixthdiv{
+    background-color: black;
+    margin:-18px;
+}
+.sixthdiv>p{
+    text-align: center;
+    color: white;
+    padding:30px;
+}
