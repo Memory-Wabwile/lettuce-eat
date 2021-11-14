@@ -12,7 +12,7 @@ body{
 }
 @media screen and (max-width:600px){
     .firstcontainer{
-           
+        background-size: cover;  
     }
 }
 .topleft{
@@ -41,11 +41,10 @@ li {
 }
 @media screen and (max-width:600px){
     li{
-        font-size:10px;
+        font-size:5px;
         padding :20px;
         display: flex;
-        
-    }
+         }
 }
 #home {
     color: #F19201;
@@ -114,7 +113,7 @@ li {
 }
 .dots {
     display: flex;
-    align-content: center;
+    align-items: center;
     justify-content: space-between;
     margin-top: 30px;
 }
@@ -202,6 +201,12 @@ em{
     padding:25px;   
     margin-left:20%;
 }
+@media screen and (max-width:600px){
+    .chapati{
+        display: block;
+    }
+    
+}
 .image4{
     padding-right: 35px;
 }
@@ -222,6 +227,12 @@ em{
     margin-right: 20%;
     float: right;
 }
+@media screen and (max-width:600px){
+    .beefstew{
+        display: flex;
+        flex-direction:column;
+    }
+}
 #chicken{
     margin-top: 20px;
     margin-bottom:40px;
@@ -241,6 +252,10 @@ em{
 }
 .fifthdiv>h4{
     padding-top: 5%;
+
+}
+.fifthdiv>h4>em{
+    font-size: 25px;
 }
 .fifthdiv>#book{
     margin-bottom:5%;
