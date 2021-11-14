@@ -177,3 +177,23 @@ em{
     padding:25px;   
     margin-left:20%;
 }
+.image4{
+    padding-right: 35px;
+}
+.content>h5{
+    color: #F19201;
+}
+.content>button{
+    border-style: none ;
+    background-color: rgb(227,227,227,227);
+    padding: 10px 30px 10px 30px;
+    
+}
+.beefstew{
+    background-color: white;
+    display: flex;
+    width:25%;
+    padding: 25px;
+    margin-right: 20%;
+    float: right;
+}
