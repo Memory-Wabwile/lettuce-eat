@@ -197,3 +197,20 @@ em{
     margin-right: 20%;
     float: right;
 }
+#chicken{
+    margin-top: 20px;
+    margin-bottom:40px;
+}
+#rice{
+    margin-top: 20px;
+    margin-bottom:40px;
+}
+.fifthdiv{
+    background-image: url("images/image8.png");
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin:-45px;
+    font-size: 30px;
+}
