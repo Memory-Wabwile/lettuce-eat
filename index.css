@@ -111,4 +111,20 @@ li {
     text-align: center;
     margin-left:35%;
 }
+.dots>#apple{
+    margin-left:20% ;
+}
+.dots>#fruit{
+    margin-right: 20%;
+}
+em{
+    font-size:15px;
+    margin-bottom: 20px;
+}
+.thirdcontainer {
+    display: flex;
+    flex-direction: row;
+    height: max-content;
+    margin:-20px;
+}
 
