@@ -69,7 +69,7 @@ li {
     background-color: #F19201;
     border: none;
     color: white;
-    padding: 20px 50px 20px 50px;
+    padding: 15px 40px ;
     font-size: 30px;
     margin-left: 50px;
     margin-bottom: 100px ;
@@ -80,11 +80,7 @@ li {
     padding-left: 50px;
     font-size:50px;
 }
-@media screen and (max-width:768px){
-    .premium{
-        font-size: 20px;
-    }
-}
+
 
 .premium {
     margin-top: 50px;
@@ -93,7 +89,7 @@ li {
     flex-direction: row;
     background-color:rgb(227,227,227,227);
     width: 100%;
-    height: ;
+   
 }
 .services {
     align-items: center;
@@ -320,5 +316,17 @@ em{
     .fourdivs{
         display: flex;
         flex-direction: column;
+        
+    }
+    .beefstew{
+        width: 60%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .chapati{
+        width: 60%;
+        margin: auto;
+        margin-bottom: 40px;
     }
 }
+
