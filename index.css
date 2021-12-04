@@ -292,6 +292,10 @@ em{
         margin: auto;
         margin-bottom: 40px;
     }
+    .drink>h2{
+        margin-left: 30%;
+        
+    }
     .menu>p{
         padding-left: 20px;
         padding-right: 20px;
@@ -300,5 +304,21 @@ em{
         padding-left: 20px;
         padding-right: 20px;
      }
-     }
+      /* .top>.premium>#order{
+          font-size: 20px;
+          background-color: red;
+      }    */
+    
+}
+ @media (min-width: 768px) and (max-width: 1024px){
+    
+    .drink>h2{
+        margin-left: 25%;
+        height: 20px;
+        width: 20px;
+    }
+    .fourdivs{
+        display: flex;
+        flex-direction: column;
+    }
 }
